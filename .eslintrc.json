@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/jsx-no-undef": ["error", { "allowGlobals": true }],
+    "_comment":
+      "no-mixed-operators rule disabled because prettier has the final say on how they're formatted",
+    "no-mixed-operators": 0
+  }
+}
+
